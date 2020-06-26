@@ -2,7 +2,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class IDPeru < OmniAuth::Strategies::OAuth2
+    class Idperu < OmniAuth::Strategies::OAuth2
       option :name, "idperu"
 
       option :client_options, {site: "https://idaas.reniec.gob.pe/service",
